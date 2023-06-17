@@ -1,0 +1,41 @@
+img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    top: 70px;
+    transition: transform 0.3s ease;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  body {
+    background-color: #87ceeb;
+  }
+
+  .heading {
+    background-color: red;
+    text-align: center;
+  }
+
+  .heading:hover {
+    background-color: blue;
+  }
+
+  h2 {
+    color: black; /* Set the initial text color */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  h2.clicked {
+    color: yellow; /* Change the text color to yellow when clicked */
+  }
+  
+  h2:hover {
+    color: blue; /* Change the text color to blue on hover */
+  }
+  
+  
